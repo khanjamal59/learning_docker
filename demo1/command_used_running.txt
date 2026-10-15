@@ -1,0 +1,2 @@
+cmnd1: docker build -t my-fastapi-app .
+cmnd2: docker run --rm -p 8000:8000 my-fastapi-app
