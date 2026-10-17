@@ -11,7 +11,7 @@ def home(name: str = ""):
     greeting = ""
 
     if name.strip():
-        greeting = f"<h2>Hello, {escape(name.strip())}! 👋</h2>"
+        greeting = f"<h2>Hello, {escape(name.strip())}! </h2>"
 
     html = f"""
     <!DOCTYPE html>
@@ -62,7 +62,7 @@ def home(name: str = ""):
     </head>
     <body>
         <div class="container">
-            <h1>My First FastAPI App 🚀</h1>
+            <h1>My First FastAPI App </h1>
             <p>Enter your name below.</p>
 
             <form action="/" method="get">
